@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: opx;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: darkgray;
+}
+.header{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.1em;
+  margin: 0.1em;
+  background-color: green;
+}
+.header img{
+  width: 60px;
+  margin-right: 900px;
+}
+.header button{
+
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: hsl(348, 83%, 47%);
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic medium', 'Ariel narrow', Arial, Helvetica, sans-serif;
+}
+.header button:hover{
+  background-color: hsl(348, 83%, 30%);
+  text-decoration: underline;
+}
+.pong-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ping-pong{
+  width: 80%;
+  height: 80%;
+  border: 15px solid white;
+}
